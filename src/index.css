@@ -3,16 +3,95 @@
   src: url(/fonts/BIGJOHN.otf);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 body {
   margin: 0;
   padding: 0;
-  /* font-family: sans-serif; */
+  width: 100%;
+  height: auto;
+  font-family: sans-serif;
 }
 
 h1 {
   font-family: BigJohn;
 }
 
-.aboutMeText {
+h3, p {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
 
+h3 {
+  font-size: 30px;
+  display: flex;
+}
+
+.myTech p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: #737373;
+}
+
+h6 {
+  margin: 10px;
+  font-size: 12px;
+  font-family: BigJohn
+}
+
+button {
+  display: flex;
+  justify-content:center;
+  align-self: center;
+  font-family: BigJohn;
+  color: #f5a622;
+  background-color: #fde6c4;
+  outline: none;
+  border-style: none;
+  width: 160px;
+  border-radius: 40px;
+  padding: 20px 20px;
+}
+
+.container {
+  width: 900px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.profileInfo {
+  display: flex;
+}
+
+.aboutMeText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.myWorkLinks {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 30px 0;
+  width: 90%;
+}
+
+.myWorkLinks img {
+  margin: 5px;
+  width: calc(50% - 10px)
+}
+
+footer {
+  border-top: 1px solid #000;
+  height: 150px;
+  margin-top: 40px;
+  background-color: #f5a622;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
