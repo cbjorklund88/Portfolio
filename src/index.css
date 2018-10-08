@@ -13,6 +13,11 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+  width: 70%;
+}
+
 h1 {
   font-family: BigJohn;
 }
@@ -30,6 +35,12 @@ h3 {
 .myTech p {
   font-family: 'Nunito', sans-serif;
   font-size: 25px;
+  color: #737373;
+}
+
+h5 {
+  font-family: BigJohn;
+  font-size: 20px;
   color: #737373;
 }
 
@@ -73,16 +84,51 @@ button {
   margin-left: 50px;
 }
 
-.myWorkLinks {
+.Cases {
   display: flex;
   flex-flow: row wrap;
-  margin: 30px 0;
-  width: 90%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 20px 0px;
+  background-color: yellow;
 }
 
-.myWorkLinks img {
-  margin: 5px;
-  width: calc(50% - 10px)
+.MyCases {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: lightblue;
+}
+
+.caseImage {
+  margin-top: 20px;
+}
+
+.myCaseText {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillsList {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.skillsList p {
+  margin: 15px;
+}
+
+.studiesList {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.heroImage {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {

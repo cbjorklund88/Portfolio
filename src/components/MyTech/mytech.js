@@ -4,6 +4,7 @@ class MyTech extends React.Component {
 
   render() {
     return (
+
       <div>
         <h1>tech</h1>
         <div className="myTech">
@@ -12,14 +13,6 @@ class MyTech extends React.Component {
           6 sprints with demos together with companies like Volumental, Bonnier,
           Comprend @ Technigo &diams; Exploring MAchine learning
           </p>
-        </div>
-        <div className="myWorkLinks">
-          <img src="./Images/tech.jpeg" alt="my Work" />
-          <img src="./Images/tech.jpeg" alt="my Work" />
-          <img src="./Images/tech.jpeg" alt="my Work" />
-          <img src="./Images/tech.jpeg" alt="my Work" />
-          <img src="./Images/tech.jpeg" alt="my Work" />
-          <img src="./Images/tech.jpeg" alt="my Work" />
         </div>
       </div>
     )
