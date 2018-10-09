@@ -7,7 +7,7 @@ class Studies extends React.Component {
       <div>
         <h1>Studies</h1>
         <div className="studiesList">
-          <div className="studiesListItem">
+          <div className="studiesListItemTechnigo">
             <h5>Frontend developer</h5>
             <p>Full-time 12 w boot camp/intensive program. Covering everything
             from the basics of programming to how to structure and build bigger web projects.
@@ -17,13 +17,11 @@ class Studies extends React.Component {
             Sthlm Sep-Nov. 2018
             </p>
           </div>
-          <div className="skillsListToolbox">
-            <h5>Toolbox</h5>
-            <p>Atom</p>
-            <p>Postman</p>
-            <p>Slack</p>
-            <p>Trello</p>
-            <p>Keynote</p>
+          <div className="studiesListItem">
+            <h5>html and css 3</h5>
+            <p>3 day intensive course. Build a portfolio
+            in HTML&CSS. Ekskäret April. 2018
+            </p>
           </div>
         </div>
       </div>

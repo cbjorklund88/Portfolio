@@ -126,6 +126,16 @@ button {
   font-size: 15px;
 }
 
+.studiesListItemTechnigo {
+  width: 50%;
+  margin-right: 30px;
+}
+
+.studiesListItem {
+  width: 50%;
+  margin-left: 30px;
+}
+
 .heroImage {
   display: flex;
   flex-direction: column;

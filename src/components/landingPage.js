@@ -23,7 +23,8 @@ class LandingPage extends React.Component {
             {productsJson.cases.map(product =>
               <MyCases
                 title={product.title}
-                image={product.image} />)}
+                image={product.image}
+                id={product.id} />)}
           </div>
           <Skills />
           <Studies />
