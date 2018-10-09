@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
-import landingPage from "./LandingPage"
+import LandingPage from "./LandingPage"
 import Project from "./Project"
 
 class App extends React.Component {
@@ -28,8 +28,8 @@ class App extends React.Component {
             <li><Link to="/Project">Project page</Link></li>
             <li><Link to="/Project">Single page</Link></li>
           </ul>
-          <Route path="/LandingPage" component={landingPage} />
-          <Route path="/Project" component={Project} />
+          <Route path="/LandingPage" component={LandingPage} />
+          <Route exact path="/Project" component={Project} />
           <Route path="/Project/:id" component={Project} />
         </div>
       </Router>
