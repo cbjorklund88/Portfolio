@@ -11,20 +11,23 @@ class Skills extends React.Component {
             <h5>Code</h5>
             <p>HTML5</p>
             <p>CSS3</p>
-            <p>Javascript</p>
+            <p>React</p>
+            <p>Javascript ES6</p>
             <p>SASS</p>
-            <p>GitHub</p>
           </div>
           <div className="skillsListToolbox">
             <h5>Toolbox</h5>
             <p>Atom</p>
+            <p>GitHub</p>
             <p>Postman</p>
             <p>Slack</p>
             <p>Trello</p>
-            <p>Keynote</p>
+            <p>Terminal</p>
           </div>
           <div className="skillsListMore">
             <h5>More</h5>
+            <p>Agile methodology</p>
+            <p>Concept development</p>
           </div>
         </div>
       </div>
