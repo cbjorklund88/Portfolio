@@ -2,8 +2,8 @@
 	"cases": [{
 			"id": "1",
 			"title": "Radio player built in React using Sveriges Radios API:s",
-			"code": "",
-			"Toolbox": "",
+			"code": "HTML5 CSS3 React Javascript ES6",
+			"Toolbox": "GitHub Atom ",
 			"More": "",
 			"image": "./Images/tech.jpeg",
 			"imageHero": "/Images/computer.jpg",
@@ -11,12 +11,13 @@
 		},
 		{
 			"id": "2",
-			"title": "RadioPlayer",
+			"title": "Weather App",
 			"code": "",
 			"Toolbox": "",
 			"More": "",
 			"image": "./Images/tech.jpeg",
-			"description": ""
+			"imageHero": "/Images/computer.jpg",
+			"description": "Weather App"
 		},
 		{
 			"id": "3",
