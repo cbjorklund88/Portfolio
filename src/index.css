@@ -32,12 +32,6 @@ h3 {
   display: flex;
 }
 
-.myTech p {
-  font-family: 'Nunito', sans-serif;
-  font-size: 25px;
-  color: #737373;
-}
-
 h5 {
   font-family: BigJohn;
   font-size: 20px;
@@ -85,22 +79,43 @@ button {
   margin-left: 50px;
 }
 
+.myTech {
+  width: 600px;
+}
+
+.myTech p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #737373;
+}
+
+.MyCases {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 50px 0;
+}
+
 .Cases {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
-.MyCases {
-  display: flex;
-  flex-flow: row wrap;
+.Cases p {
+  margin: 0;
 }
 
 .caseImage {
   margin-top: 20px;
+  width: 100%;
+}
+
+.caseImage img {
+  width: 100%;
 }
 
 .myCaseText {
@@ -123,9 +138,10 @@ button {
   justify-content: space-between;
   margin-bottom: 40px;
   font-size: 15px;
+  line-height: 30px;
 }
 
-.studiesListItemTechnigo {
+.studiesListItemTechnigo  {
   width: 50%;
   margin-right: 30px;
 }
