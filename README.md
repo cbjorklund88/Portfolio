@@ -10,3 +10,10 @@ Add components in the `src` folder and use them in `src/app.js` to get started.
 1. Open the directory in the terminal: `cd /path/to/react-starter`
 1. Install required dependencies with npm: `npm install`
 1. Start the project: `npm start`
+
+
+// <ul>
+//   <li><Link to="/LandingPage">Landing Page</Link></li>
+//   <li><Link to="/Project">Project page</Link></li>
+//   <li><Link to="/Project">Single page</Link></li>
+// </ul>

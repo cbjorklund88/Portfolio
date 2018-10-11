@@ -23,11 +23,7 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <ul>
-            <li><Link to="/LandingPage">Landing Page</Link></li>
-            <li><Link to="/Project">Project page</Link></li>
-            <li><Link to="/Project">Single page</Link></li>
-          </ul>
+  
           <Route path="/LandingPage" component={LandingPage} />
           <Route exact path="/Project" component={Project} />
           <Route path="/Project/:id" component={Project} />
