@@ -5,7 +5,7 @@ class Skills extends React.Component {
   render() {
     return (
       <div className="skills-wrapper">
-        <h1>Skills</h1>
+        <h2>Skills</h2>
         <div className="skillsList">
           <div className="skillsListCode">
             <h5>Code</h5>

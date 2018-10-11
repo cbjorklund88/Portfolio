@@ -8,7 +8,7 @@ import Footer from "./Footer/footer"
 import Skills from "./Skills/skills"
 import Studies from "./Studies/studies"
 
-import productsJson from "../products.json"
+import projectsJson from "../projects.json"
 
 class LandingPage extends React.Component {
 
@@ -20,7 +20,7 @@ class LandingPage extends React.Component {
           <Button>See my github</Button>
           <MyTech />
           <div className="MyCases">
-            {productsJson.cases.map(product => <MyCases
+            {projectsJson.cases.map(product => <MyCases
               title={product.title}
               image={product.image}
               id={product.id} />)}

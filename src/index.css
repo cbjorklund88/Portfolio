@@ -15,10 +15,16 @@ a {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Fredoka One';
   text-transform: uppercase;
   color: #3D52D5;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+
+ h2, h3 {
+  font-size: 30px;
 }
 
 h3, p {
@@ -26,16 +32,12 @@ h3, p {
   margin: 0;
 }
 
-h3 {
-  font-size: 30px;
-  display: flex;
-}
-
 h5 {
   font-family: 'Fredoka One';
   text-transform: uppercase;
   font-size: 20px;
   color: #B4C5E4;
+  letter-spacing: 1px;
 }
 
 h6 {
@@ -60,6 +62,13 @@ button {
   padding: 20px 20px;
   cursor: pointer;
   letter-spacing: 1px;
+  margin-top: 30px;
+  transition: 0.2s;
+  opacity: 1;
+}
+
+button:hover {
+ opacity: 0.9;
 }
 
 .container {
@@ -73,8 +82,8 @@ button {
 .profileInfo {
   display: flex;
   border: 2px solid #3D52D5;
-  margin-bottom: 40px;
   width: 100%;
+  margin: 0 30px;
 }
 
 .aboutMeText {
@@ -84,6 +93,7 @@ button {
   width: 500px;
   margin-left: 50px;
 }
+
 .mytech-wrapper {
   display: flex;
   flex-flow: column;
@@ -192,7 +202,6 @@ button {
 }
 
 .project-text-container {
-  background-color: green;
   width: 70%;
   height: 500px;
 }
@@ -200,7 +209,6 @@ button {
 .skills-list-projects-container {
   display: flex;
   justify-content: space-between;
-  background-color: lightblue;
 }
 
 

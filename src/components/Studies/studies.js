@@ -5,7 +5,7 @@ class Studies extends React.Component {
   render() {
     return (
       <div className="studies-wrapper">
-        <h1>Studies</h1>
+        <h2>Studies</h2>
         <div className="studiesList">
           <div className="studiesListItemTechnigo">
             <h5>Frontend developer</h5>
