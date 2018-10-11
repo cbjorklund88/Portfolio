@@ -23,7 +23,7 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-  
+          <Route path="/" component={LandingPage} />
           <Route path="/LandingPage" component={LandingPage} />
           <Route exact path="/Project" component={Project} />
           <Route path="/Project/:id" component={Project} />
