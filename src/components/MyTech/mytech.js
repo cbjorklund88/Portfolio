@@ -6,8 +6,8 @@ class MyTech extends React.Component {
     return (
 
       <div>
-        <h1>tech</h1>
         <div className="myTech">
+          <h1>tech</h1>
           <p>450 coding hours &diams; 50+ individual tasks &diams; HTML5, CSS, SASS,
           Flexbox, Javascript, ES6, JSX, React, Node.js, Mongo DB, API:s &diams;
           6 sprints with demos together with companies like Volumental, Bonnier,

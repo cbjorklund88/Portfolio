@@ -20,6 +20,7 @@ a {
 
 h1 {
   font-family: BigJohn;
+  color: #3D52D5;
 }
 
 h3, p {
@@ -35,7 +36,7 @@ h3 {
 h5 {
   font-family: BigJohn;
   font-size: 20px;
-  color: #737373;
+  color: #B4C5E4;
 }
 
 h6 {
@@ -49,8 +50,8 @@ button {
   justify-content:center;
   align-self: center;
   font-family: BigJohn;
-  color: #f5a622;
-  background-color: #fde6c4;
+  color: #3D52D5;
+  background-color: #B4C5E4;
   outline: none;
   border-style: none;
   width: 160px;
@@ -60,7 +61,7 @@ button {
 }
 
 .container {
-  width: 900px;
+  width: 1000px;
   padding-top: 70px;
   display: flex;
   flex-direction: column;
@@ -69,6 +70,8 @@ button {
 
 .profileInfo {
   display: flex;
+  border: 2px solid #3D52D5;
+  margin-bottom: 40px;
 }
 
 .aboutMeText {
@@ -107,6 +110,7 @@ button {
 
 .Cases p {
   margin: 0;
+  color: #3D52D5;
 }
 
 .caseImage {
@@ -161,7 +165,7 @@ button {
 
 .project-container a {
   margin-bottom: 30px;
-  color: #f5a622;
+  color: #6E7E85;
   font-family: BigJohn;
 }
 
@@ -188,7 +192,7 @@ footer {
   border-top: 1px solid #000;
   height: 150px;
   margin-top: 40px;
-  background-color: #f5a622;
+  background-color: #3D52D5;
   text-align: center;
   display: flex;
   justify-content: center;
