@@ -6,7 +6,7 @@
 			"Toolbox": "GitHub Atom ",
 			"More": "",
 			"image": "./Images/radio-project.png",
-			"imageHero": "/Images/computer.jpg",
+			"imageHero": "/Images/radio-project.png",
 			"description": "Radio assignment"
 		},
 		{
@@ -26,6 +26,7 @@
 			"Toolbox": "",
 			"More": "",
 			"image": "./Images/clock-project.png",
+			"imageHero": "/Images/clock2.png",
 			"description": ""
 		},
 		{
@@ -35,6 +36,7 @@
 			"Toolbox": "",
 			"More": "",
 			"image": "./Images/clock-project.png",
+			"imageHero": "/Images/computer.jpg",
 			"description": ""
 		}
 	]
