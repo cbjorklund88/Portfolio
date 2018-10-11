@@ -19,11 +19,12 @@ class App extends React.Component {
   goToAbout = () => {
     this.setState({ page: "LandingPage" })
   }
+
   render() {
     return (
       <Router>
         <div>
-          <Route path="/" component={LandingPage} />
+          <Route path="/" exact="true" component={LandingPage} />
           <Route path="/LandingPage" component={LandingPage} />
           <Route exact path="/Project" component={Project} />
           <Route path="/Project/:id" component={Project} />

@@ -1,9 +1,5 @@
-@font-face {
-  font-family: BigJohn;
-  src: url(/fonts/BIGJOHN.otf);
-}
-
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Source+Sans+Pro');
 
 body {
   margin: 0;
@@ -16,15 +12,17 @@ body {
 a {
   text-decoration: none;
   width: 70%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-  font-family: BigJohn;
+  font-family: 'Fredoka One';
+  text-transform: uppercase;
   color: #3D52D5;
 }
 
 h3, p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
 }
 
@@ -34,7 +32,8 @@ h3 {
 }
 
 h5 {
-  font-family: BigJohn;
+  font-family: 'Fredoka One';
+  text-transform: uppercase;
   font-size: 20px;
   color: #B4C5E4;
 }
@@ -42,14 +41,16 @@ h5 {
 h6 {
   margin: 10px;
   font-size: 12px;
-  font-family: BigJohn
+  font-family: 'Fredoka One';
+  text-transform: uppercase;
 }
 
 button {
   display: flex;
   justify-content:center;
   align-self: center;
-  font-family: BigJohn;
+  font-family: 'Fredoka One';
+  text-transform: uppercase;
   color: #3D52D5;
   background-color: #B4C5E4;
   outline: none;
@@ -58,6 +59,7 @@ button {
   border-radius: 40px;
   padding: 20px 20px;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
 .container {
@@ -82,13 +84,14 @@ button {
   width: 500px;
   margin-left: 50px;
 }
-
-.myTech {
-  width: 600px;
+.mytech-wrapper {
+  display: flex;
+  flex-flow: column;
+  margin: 0 30px;
 }
 
 .myTech p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   color: #737373;
 }
@@ -128,6 +131,12 @@ button {
   flex-wrap: wrap;
 }
 
+.skills-wrapper {
+  display: flex;
+  flex-flow: column;
+  margin: 0 30px;
+}
+
 .skillsList {
   display: flex;
   justify-content: space-between;
@@ -136,6 +145,12 @@ button {
 
 .skillsList p {
   margin: 15px;
+}
+
+.studies-wrapper {
+  display: flex;
+  flex-flow: column;
+  margin: 0 30px;
 }
 
 .studiesList {
@@ -166,8 +181,8 @@ button {
 
 .project-container a {
   margin-bottom: 30px;
-  color: #6E7E85;
-  font-family: BigJohn;
+  color: #3D52D5;
+  font-family: 'Fredoka One';
 }
 
 .heroImage img {
@@ -199,4 +214,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing: 2px;
 }

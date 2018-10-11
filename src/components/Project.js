@@ -10,7 +10,7 @@ class Project extends React.Component {
     console.log(id)
     let project = {}
     productsJson.cases.forEach(item => {
-      if(item.id === id) {
+      if (item.id === id) {
         project = item
       }
     })
