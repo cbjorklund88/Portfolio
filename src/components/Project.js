@@ -27,8 +27,8 @@ class Project extends React.Component {
             <p>{project.description}</p>
           </div>
           <Button>See it live</Button>
+          <h2>tech specs</h2>
           <div className="skills-list-projects-container">
-
             <div className="skillsListCode">
               <h5>Code</h5>
               <p>{project.code}</p>

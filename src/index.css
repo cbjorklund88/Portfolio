@@ -210,7 +210,10 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
-
+.skillsListCode, .skillsListToolbox, .skillsListMore  {
+  width: 33.33%;
+  text-align: center;
+}
 
 footer {
   border-top: 1px solid #000;
