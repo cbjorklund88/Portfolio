@@ -31,12 +31,12 @@
 		},
 		{
 			"id": "4",
-			"title": "RadioPlayer",
+			"title": "Newspaper",
 			"code": "",
 			"Toolbox": "",
 			"More": "",
-			"image": "./Images/clock2 2.png",
-			"imageHero": "/Images/computer.jpg",
+			"image": "./Images/newspaper.png",
+			"imageHero": "/Images/newspaper.png",
 			"description": ""
 		}
 	]
