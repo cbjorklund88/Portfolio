@@ -7,7 +7,7 @@ class Studies extends React.Component {
       <div className="studies-wrapper">
         <h2>Studies</h2>
         <div className="studiesList">
-          <div className="studiesListItemTechnigo">
+          <div className="studiesListItemFirst">
             <h5>Frontend developer</h5>
             <p>
             Full-time 12 w boot camp/intensive program. Covering everything

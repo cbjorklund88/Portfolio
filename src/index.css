@@ -11,14 +11,14 @@ body {
 
 a {
   text-decoration: none;
-  width: 70%;
+  width: 80%;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1, h2 {
   font-family: 'Fredoka One';
   text-transform: uppercase;
-  color: #3D52D5;
+  color: #82a79f;
   letter-spacing: 1px;
   font-size: 40px;
 }
@@ -35,8 +35,8 @@ h3, p {
 h5 {
   font-family: 'Fredoka One';
   text-transform: uppercase;
-  font-size: 20px;
-  color: #B4C5E4;
+  font-size: 22px;
+  color: #d1e7d2;
   letter-spacing: 1px;
 }
 
@@ -53,8 +53,8 @@ button {
   align-self: center;
   font-family: 'Fredoka One';
   text-transform: uppercase;
-  color: #3D52D5;
-  background-color: #B4C5E4;
+  color: #82a79f;
+  background-color: #d1e7d2;
   outline: none;
   border-style: none;
   width: 160px;
@@ -80,18 +80,24 @@ button:hover {
 }
 
 .profileInfo {
-  display: flex;
-  border: 2px solid #3D52D5;
   width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
   margin: 0 30px;
 }
 
+.profileInfo img {
+  width: 250px;
+  height: 300px;
+}
+
 .aboutMeText {
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 500px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .mytech-wrapper {
@@ -109,31 +115,39 @@ button:hover {
 .MyCases {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  margin: 50px 0;
+  height: auto;
+  margin: 40px 0;
 }
 
 .Cases {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  margin: 20px 0;
+  margin: 10px 0;
+  padding: 5px;
+  width: calc(50% - 20px);
+}
+
+.cases-container {
+  height: 300px;
 }
 
 .Cases p {
   margin: 0;
-  color: #3D52D5;
+  color: #82a79f;
+  font-size: 20px;
 }
 
 .caseImage {
   margin-top: 20px;
-  width: 100%;
 }
 
 .caseImage img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .myCaseText {
@@ -153,8 +167,10 @@ button:hover {
   margin-bottom: 40px;
 }
 
-.skillsList p {
-  margin: 15px;
+.skillsList p, .skills-list-projects-container p, .studiesList p {
+  margin: 10px;
+  color: #737373;
+  font-size: 20px;
 }
 
 .studies-wrapper {
@@ -171,14 +187,9 @@ button:hover {
   line-height: 30px;
 }
 
-.studiesListItemTechnigo  {
+.studiesListItemFirst, .studiesListItem  {
   width: 50%;
   margin-right: 30px;
-}
-
-.studiesListItem {
-  width: 50%;
-  margin-left: 30px;
 }
 
 .project-container {
@@ -191,19 +202,22 @@ button:hover {
 
 .project-container a {
   margin-bottom: 30px;
-  color: #3D52D5;
+  color: #82a79f;
   font-family: 'Fredoka One';
 }
 
 .heroImage img {
-  width: auto;
-  height: 500px;
-  object-fit: fill;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .project-text-container {
   width: 70%;
   height: 500px;
+}
+
+.project-text-container P {
+  width: 60%;
 }
 
 .skills-list-projects-container {
@@ -219,7 +233,7 @@ footer {
   border-top: 1px solid #000;
   height: 150px;
   margin-top: 40px;
-  background-color: #3D52D5;
+  background-color: #82a79f;
   color: #fff;
   text-align: center;
   display: flex;

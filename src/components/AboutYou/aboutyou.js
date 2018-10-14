@@ -6,7 +6,9 @@ class AboutYou extends React.Component {
     return (
       <div className="wrapper">
         <div className="profileInfo">
-          <img src="./Images/profile-image.png" alt="This is me" />
+          <div className="profile-photo">
+            <img src="./Images/clara.jpg" alt="This is me" />
+          </div>
           <div className="aboutMeText">
             <h3>Clara Björklund</h3>
             <h1>Frontend Developer</h1>
