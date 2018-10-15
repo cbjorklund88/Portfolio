@@ -15,6 +15,13 @@ a {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+li {
+  list-style: none;
+  margin: 10px;
+  color: #737373;
+  font-size: 20px;
+}
+
 h1, h2 {
   font-family: 'Fredoka One';
   text-transform: uppercase;
@@ -128,24 +135,25 @@ button:hover {
   padding: 10px;
 }
 
-.cases-container {
-  height: 300px;
-}
-
 .Cases p {
   margin: 0;
   color: #82a79f;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .caseImage {
   margin-top: 20px;
+  height: 250px;
+  object-fit: contain;
+  width: 100%;
 }
 
 .caseImage img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  width: 100%;
+}
+
+.case-title {
+  min-height: 20px;
 }
 
 .myCaseText {
@@ -163,12 +171,6 @@ button:hover {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
-}
-
-.skillsList p, .skills-list-projects-container p, .studiesList p {
-  margin: 10px;
-  color: #737373;
-  font-size: 20px;
 }
 
 .studies-wrapper {
@@ -232,7 +234,6 @@ footer {
   height: 150px;
   margin-top: 40px;
   background-color: #82a79f;
-  color: #fff;
   text-align: center;
   display: flex;
   justify-content: center;

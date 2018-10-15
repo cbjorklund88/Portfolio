@@ -8,7 +8,6 @@ class Project extends React.Component {
 
   render() {
     const id = this.props.match.params.id
-    console.log(id)
     let project = {}
     projectsJson.cases.forEach(item => {
       if (item.id === id) {
@@ -31,15 +30,21 @@ class Project extends React.Component {
           <div className="skills-list-projects-container">
             <div className="skillsListCode">
               <h5>Code</h5>
-              <p>{project.code}</p>
+              <ul>
+                <li>{project.code}</li>
+              </ul>
             </div>
             <div className="skillsListToolbox">
               <h5>Toolbox</h5>
-              <p>{project.Toolbox}</p>
+              <ul>
+                <li>{project.Toolbox}</li>
+              </ul>
             </div>
             <div className="skillsListMore">
               <h5>More</h5>
-              <p>{project.More}</p>
+              <ul>
+                <li>{project.More}</li>
+              </ul>
             </div>
           </div>
           <Button>See it live</Button>

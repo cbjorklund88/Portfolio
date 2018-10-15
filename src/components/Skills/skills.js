@@ -9,25 +9,31 @@ class Skills extends React.Component {
         <div className="skillsList">
           <div className="skillsListCode">
             <h5>Code</h5>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>React</p>
-            <p>Javascript ES6</p>
-            <p>SASS</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>React</li>
+              <li>Javascript ES6</li>
+              <li>SASS</li>
+            </ul>
           </div>
           <div className="skillsListToolbox">
             <h5>Toolbox</h5>
-            <p>Atom</p>
-            <p>GitHub</p>
-            <p>Postman</p>
-            <p>Slack</p>
-            <p>Trello</p>
-            <p>Terminal</p>
+            <ul>
+              <li>Atom</li>
+              <li>GitHub</li>
+              <li>Postman</li>
+              <li>Slack</li>
+              <li>Trello</li>
+              <li>Terminal</li>
+            </ul>
           </div>
           <div className="skillsListMore">
             <h5>More</h5>
-            <p>Agile methodology</p>
-            <p>Concept development</p>
+            <ul>
+              <li>Agile methodology</li>
+              <li>Concept development</li>
+            </ul>
           </div>
         </div>
       </div>
