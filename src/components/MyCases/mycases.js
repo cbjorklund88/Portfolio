@@ -6,10 +6,10 @@ class MyCases extends React.Component {
   render() {
     return (
       <div className="Cases">
-          <Link to={`/Project/${this.props.id}`}>
-            <div className="case-title"><p>{this.props.title}</p></div>
-            <img className="caseImage" src={this.props.image} alt="hero" />
-          </Link>
+        <Link to={`/Project/${this.props.id}`}>
+          <div className="case-title"><p>{this.props.title}</p></div>
+          <img className="caseImage" src={this.props.image} alt="my project" />
+        </Link>
       </div>
     )
   }
