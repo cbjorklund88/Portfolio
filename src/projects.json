@@ -35,7 +35,7 @@
 			"code": ["HTML5","CSS3"],
 			"Toolbox": ["GitHub", "Atom"],
 			"More": [""],
-			"image": "./Images/clock2 2.png",
+			"image": "./Images/newspaper.png",
 			"imageHero": "./Images/newspaper.png",
 			"description": "Here I created a classic magazine or newspaper style grid of images with a tagline which could link to articles. The focus here was mostly to make it work on all screens, desktop, mobile and tablet."
 		},
@@ -51,8 +51,8 @@
 		},
 		{
 			"id": "6",
-			"title": "Newspaper",
-			"code": ["HTML5","CSS3"],
+			"title": "Online Newspaper for Bonnier",
+			"code": ["HTML5","CSS3", "Javascript ES6"],
 			"Toolbox": ["GitHub", "Atom"],
 			"More": [""],
 			"image": "./Images/clock2 2.png",
