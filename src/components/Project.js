@@ -47,7 +47,7 @@ class Project extends React.Component {
               </ul>
             </div>
           </div>
-          <Button>See it live</Button>
+          <Button>view the code</Button>
         </div>
         <Footer />
       </div>

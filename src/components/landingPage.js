@@ -17,7 +17,7 @@ class LandingPage extends React.Component {
       <div>
         <div className="container">
           <AboutYou />
-          <Button>See my github</Button>
+          <Button><a href="https://github.com/cbjorklund88" target="_blank">See my github</a></Button>
           <MyTech />
           <div className="MyCases">
             {projectsJson.cases.map(product => <MyCases
@@ -27,7 +27,7 @@ class LandingPage extends React.Component {
           </div>
           <Skills />
           <Studies />
-          <Button>See my Linkedin</Button>
+          <Button><a href="https://www.linkedin.com/in/clara-bj%C3%B6rklund-8b7776171/" target="_blank">See my Linkedin</a></Button>
         </div>
         <Footer />
       </div>
