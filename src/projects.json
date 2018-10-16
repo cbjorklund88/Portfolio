@@ -7,7 +7,7 @@
 			"More": [""],
 			"image": "./Images/radio-project.png",
 			"imageHero": "/Images/radio-project.png",
-			"description": "Radio assignment"
+			"description": "For this project I used the Sveriges Radio API to fetch information about the radio channels and fetch playable audio stream urls to create a working radio player!"
 		},
 		{
 			"id": "2",
