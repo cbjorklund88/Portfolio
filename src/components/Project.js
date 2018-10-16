@@ -25,29 +25,29 @@ class Project extends React.Component {
             <h1>{project.title}</h1>
             <p>{project.description}</p>
           </div>
-          <Button>See it live</Button>
+          <Button><a href="#" target="_blank">See it live</a></Button>
           <h2>tech specs</h2>
           <div className="skills-list-projects-container">
             <div className="skillsListCode">
               <h5>Code</h5>
               <ul>
-                <li>{project.code}</li>
+                {project.code.map(item => <li>{item}</li>)}
               </ul>
             </div>
             <div className="skillsListToolbox">
               <h5>Toolbox</h5>
               <ul>
-                <li>{project.Toolbox}</li>
+                {project.Toolbox.map(item => <li>{item}</li>)}
               </ul>
             </div>
             <div className="skillsListMore">
               <h5>More</h5>
               <ul>
-                <li>{project.More}</li>
+                {project.More.map(item => <li>{item}</li>)}
               </ul>
             </div>
           </div>
-          <Button>view the code</Button>
+          <Button><a href="#" target="_blank">view the code</a></Button>
         </div>
         <Footer />
       </div>

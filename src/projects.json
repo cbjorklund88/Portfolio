@@ -2,9 +2,9 @@
 	"cases": [{
 			"id": "1",
 			"title": "Radio player built in React using Sveriges Radios API:s",
-			"code": ["HTML5", "CSS3", "React", "Javascript", "ES6"],
-			"Toolbox": "GitHub Atom ",
-			"More": "",
+			"code": ["HTML5", "CSS3", "React", "Javascript ES6"],
+			"Toolbox":[ "GitHub", "Atom"],
+			"More": [""],
 			"image": "./Images/radio-project.png",
 			"imageHero": "/Images/radio-project.png",
 			"description": "Radio assignment"
@@ -12,9 +12,9 @@
 		{
 			"id": "2",
 			"title": "Weather Dashboard built on open weather API",
-			"code": "[]",
-			"Toolbox": "",
-			"More": "",
+			"code": [""],
+			"Toolbox": [""],
+			"More": [""],
 			"image": "/Images/radio-project.png",
 			"imageHero": "/Images/weather-assignment.png",
 			"description": "Weather App"
@@ -22,9 +22,9 @@
 		{
 			"id": "3",
 			"title": "Clock",
-			"code": "[]",
-			"Toolbox": "",
-			"More": "",
+			"code": [""],
+			"Toolbox": [""],
+			"More": [""],
 			"image": "/Images/radio-project.png",
 			"imageHero": "/Images/clock2 2.png",
 			"description": ""
@@ -32,9 +32,9 @@
 		{
 			"id": "4",
 			"title": "Newspaper",
-			"code": "[]",
-			"Toolbox": "",
-			"More": "",
+			"code": [""],
+			"Toolbox": [""],
+			"More": [""],
 			"image": "/Images/radio-project.png",
 			"imageHero": "/Images/newspaper.png",
 			"description": ""

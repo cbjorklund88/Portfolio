@@ -13,7 +13,12 @@ li {
   list-style: none;
   margin: 10px;
   color: #737373;
-  font-size: 20px;
+  font-size: 14px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2 {
@@ -22,6 +27,13 @@ h1, h2 {
   color: #82a79f;
   letter-spacing: 1px;
   font-size: 40px;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #737373;
+    margin-right: 50px;
 }
 
 h5 {
@@ -86,6 +98,7 @@ button:hover {
 .profileInfo img {
   width: 250px;
   height: 300px;
+  border-radius: 10px;
 }
 
 .aboutMeText {
@@ -94,6 +107,13 @@ button:hover {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 20px;
+}
+
+.aboutMeText p {
+  font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #737373;
+    margin-right: 50px;
 }
 
 .mytech-wrapper {
@@ -202,9 +222,11 @@ button:hover {
 }
 
 .project-container a {
-  margin-bottom: 30px;
   color: #82a79f;
   font-family: 'Fredoka One';
+}
+.heroImage{
+  margin-top: 30px;
 }
 
 .heroImage img {
