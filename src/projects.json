@@ -6,7 +6,7 @@
 			"Toolbox":[ "GitHub", "Atom"],
 			"More": [""],
 			"image": "./Images/radio-project.png",
-			"imageHero": "/Images/radio-project.png",
+			"imageHero": "./Images/radio-project.png",
 			"description": "For this project I used the Sveriges Radio API to fetch information about the radio channels and fetch playable audio stream urls to create a working radio player!"
 		},
 		{
@@ -15,7 +15,7 @@
 			"code": [""],
 			"Toolbox": [""],
 			"More": [""],
-			"image": "/Images/radio-project.png",
+			"image": "./Images/radio-project.png",
 			"imageHero": "/Images/weather-assignment.png",
 			"description": "Weather App"
 		},
@@ -25,7 +25,7 @@
 			"code": [""],
 			"Toolbox": [""],
 			"More": [""],
-			"image": "/Images/radio-project.png",
+			"image": "./Images/radio-project.png",
 			"imageHero": "/Images/clock2 2.png",
 			"description": ""
 		},
@@ -35,7 +35,7 @@
 			"code": [""],
 			"Toolbox": [""],
 			"More": [""],
-			"image": "/Images/radio-project.png",
+			"image": "./Images/radio-project.png",
 			"imageHero": "/Images/newspaper.png",
 			"description": ""
 		}
