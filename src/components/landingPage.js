@@ -11,7 +11,6 @@ import Studies from "./Studies/studies"
 import projectsJson from "../projects.json"
 
 class LandingPage extends React.Component {
-
   render() {
     return (
       <div>

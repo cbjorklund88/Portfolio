@@ -16,7 +16,7 @@
 			"Toolbox": [""],
 			"More": [""],
 			"image": "./Images/radio-project.png",
-			"imageHero": "/Images/weather-assignment.png",
+			"imageHero": "./Images/weather-assignment.png",
 			"description": "Weather App"
 		},
 		{
@@ -26,7 +26,7 @@
 			"Toolbox": [""],
 			"More": [""],
 			"image": "./Images/radio-project.png",
-			"imageHero": "/Images/clock2 2.png",
+			"imageHero": "./Images/clock2 2.png",
 			"description": ""
 		},
 		{
@@ -36,7 +36,7 @@
 			"Toolbox": [""],
 			"More": [""],
 			"image": "./Images/radio-project.png",
-			"imageHero": "/Images/newspaper.png",
+			"imageHero": "./Images/newspaper.png",
 			"description": ""
 		}
 	]

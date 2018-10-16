@@ -6,6 +6,10 @@ import Footer from "./Footer/footer"
 
 class Project extends React.Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     const id = this.props.match.params.id
     let project = {}
