@@ -3,7 +3,7 @@
 			"id": "1",
 			"title": "Radio player built in React using Sveriges Radios API:s",
 			"code": ["HTML5", "CSS3", "React", "Javascript ES6"],
-			"Toolbox":[ "GitHub", "Atom"],
+			"Toolbox":["GitHub", "Atom", "Terminal"],
 			"More": [""],
 			"image": "./Images/radio-project.png",
 			"imageHero": "./Images/radio-project.png",
@@ -12,32 +12,52 @@
 		{
 			"id": "2",
 			"title": "Weather Dashboard built on open weather API",
-			"code": [""],
-			"Toolbox": [""],
+			"code": ["HTML5","CSS3", "React", "Javascript ES6"],
+			"Toolbox": ["GitHub", "Atom", "Terminal"],
 			"More": [""],
-			"image": "./Images/radio-project.png",
+			"image": "./Images/weather-assignment.png",
 			"imageHero": "./Images/weather-assignment.png",
-			"description": "Weather App"
+			"description": "For this project I built a weather dashboard that tells today's weather and temperature in Stockholm using a weather API."
 		},
 		{
 			"id": "3",
-			"title": "Clock",
-			"code": [""],
-			"Toolbox": [""],
+			"title": "Clock App using state in React",
+			"code": ["HTML5","CSS3", "React", "Javascript ES6"],
+			"Toolbox": ["GitHub", "Atom", "Terminal"],
 			"More": [""],
-			"image": "./Images/radio-project.png",
+			"image": "./Images/clock2 2.png",
 			"imageHero": "./Images/clock2 2.png",
-			"description": ""
+			"description": "This project I used React state to build a clock with two buttons, one to stop the clock and one to start it again."
 		},
 		{
 			"id": "4",
 			"title": "Newspaper",
-			"code": [""],
-			"Toolbox": [""],
+			"code": ["HTML5","CSS3"],
+			"Toolbox": ["GitHub", "Atom"],
 			"More": [""],
-			"image": "./Images/radio-project.png",
+			"image": "./Images/clock2 2.png",
 			"imageHero": "./Images/newspaper.png",
-			"description": ""
+			"description": "Here I created a classic magazine or newspaper style grid of images with a tagline which could link to articles. The focus here was mostly to make it work on all screens, desktop, mobile and tablet."
+		},
+		{
+			"id": "5",
+			"title": "Create a Feature Page for Volumental's Clients",
+			"code": ["HTML5","CSS3"],
+			"Toolbox": ["GitHub", "Atom"],
+			"More": [""],
+			"image": "./Images/volBauer.png",
+			"imageHero": "./Images/volBauer.png",
+			"description": "In this project we worked with Volumental and our job was to improve an important part of their webpage – their client pages. We were to create a stand alone page website dedicated to one of their customers. My team worked with Bauer."
+		},
+		{
+			"id": "6",
+			"title": "Newspaper",
+			"code": ["HTML5","CSS3"],
+			"Toolbox": ["GitHub", "Atom"],
+			"More": [""],
+			"image": "./Images/clock2 2.png",
+			"imageHero": "./Images/newspaper.png",
+			"description": "Here I created a classic magazine or newspaper style grid of images with a tagline which could link to articles. The focus here was mostly to make it work on all screens, desktop, mobile and tablet."
 		}
 	]
 }

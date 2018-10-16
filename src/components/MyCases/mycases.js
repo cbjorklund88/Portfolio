@@ -8,7 +8,9 @@ class MyCases extends React.Component {
       <div className="Cases">
         <Link to={`/Project/${this.props.id}`}>
           <div className="case-title"><p>{this.props.title}</p></div>
-          <img className="caseImage" src={this.props.image} alt="my project" />
+          <div className="caseImage">
+            <img src={this.props.image} alt="my project" />
+          </div>
         </Link>
       </div>
     )

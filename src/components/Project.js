@@ -21,7 +21,7 @@ class Project extends React.Component {
     return (
       <div>
         <div className="project-container">
-          <Link to="/LandingPage">&#8656; Back</Link>
+          <section className="go-back" onClick={this.props.history.goBack}>&#8656; Back</section>
           <div className="heroImage">
             <img src={project.imageHero} alt="my Work" />
           </div>

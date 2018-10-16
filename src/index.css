@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Source+Sans+Pro');
 
@@ -70,13 +74,20 @@ button {
   opacity: 1;
 }
 
-a {
+section {
   color: #82a79f;
-  text-decoration: none;
+  font-family: 'Fredoka One';
+  cursor: pointer;
+  font-size: 18px;
 }
 
 button:hover {
  opacity: 0.8;
+}
+
+a {
+  color: #82a79f;
+  text-decoration: none;
 }
 
 .container {
@@ -158,13 +169,15 @@ button:hover {
 
 .caseImage {
   margin-top: 20px;
-  height: 250px;
-  object-fit: contain;
   width: 100%;
+  height: 250px;
+  overflow: hidden;
+  object-fit: contain;
 }
 
 .caseImage img {
   width: 100%;
+  height: 100%;
 }
 
 .case-title {
@@ -221,17 +234,17 @@ button:hover {
   margin: auto;
 }
 
-.project-container a {
-  color: #82a79f;
-  font-family: 'Fredoka One';
-}
 .heroImage{
   margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .heroImage img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .project-text-container {
