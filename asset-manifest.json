@@ -1,13 +1,13 @@
 {
-  "main.css": "/Portfolio/static/css/main.51012bc6.chunk.css",
-  "main.js": "/Portfolio/static/js/main.a00e5061.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.a00e5061.chunk.js.map",
-  "static/js/1.187684d6.chunk.js": "/Portfolio/static/js/1.187684d6.chunk.js",
-  "static/js/1.187684d6.chunk.js.map": "/Portfolio/static/js/1.187684d6.chunk.js.map",
+  "main.css": "/Portfolio/static/css/main.c1a907a2.chunk.css",
+  "main.js": "/Portfolio/static/js/main.44130a2c.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.44130a2c.chunk.js.map",
+  "static/js/1.52096841.chunk.js": "/Portfolio/static/js/1.52096841.chunk.js",
+  "static/js/1.52096841.chunk.js.map": "/Portfolio/static/js/1.52096841.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
   "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3b961160.js.map",
-  "static/css/main.51012bc6.chunk.css.map": "/Portfolio/static/css/main.51012bc6.chunk.css.map",
+  "static/css/main.c1a907a2.chunk.css.map": "/Portfolio/static/css/main.c1a907a2.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.8337d59f1bd1828e479610323ec77480.js": "/Portfolio/precache-manifest.8337d59f1bd1828e479610323ec77480.js",
+  "precache-manifest.34a8a98c76c5ce3439cfe6810f1ef10c.js": "/Portfolio/precache-manifest.34a8a98c76c5ce3439cfe6810f1ef10c.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
