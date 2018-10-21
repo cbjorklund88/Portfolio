@@ -5,8 +5,8 @@
 			"code": ["HTML5", "CSS3", "React", "Javascript ES6"],
 			"Toolbox":["GitHub", "Atom", "Terminal"],
 			"More": [""],
-			"image": "./Images/radio-project.png",
-			"imageHero": "./Images/radio-project.png",
+			"image": "./Images/radio.png",
+			"imageHero": "./Images/radio.png",
 			"description": "For this project I used the Sveriges Radio API to fetch information about the radio channels and fetch playable audio stream urls to create a working radio player!"
 		},
 		{
@@ -15,8 +15,8 @@
 			"code": ["HTML5","CSS3", "React", "Javascript ES6"],
 			"Toolbox": ["GitHub", "Atom", "Terminal"],
 			"More": [""],
-			"image": "./Images/weather-assignment.png",
-			"imageHero": "./Images/weather-assignment.png",
+			"image": "./Images/weather_mock.gif",
+			"imageHero": "./Images/weather_mock.gif",
 			"description": "For this project I built a weather dashboard that tells today's weather and temperature in Stockholm using a weather API."
 		},
 		{
@@ -25,8 +25,8 @@
 			"code": ["HTML5","CSS3", "React", "Javascript ES6"],
 			"Toolbox": ["GitHub", "Atom", "Terminal"],
 			"More": [""],
-			"image": "./Images/clock2 2.png",
-			"imageHero": "./Images/clock2 2.png",
+			"image": "./Images/clock.png",
+			"imageHero": "./Images/clock.png",
 			"description": "This project I used React state to build a clock with two buttons, one to stop the clock and one to start it again."
 		},
 		{
@@ -35,8 +35,8 @@
 			"code": ["HTML5","CSS3"],
 			"Toolbox": ["GitHub", "Atom"],
 			"More": [""],
-			"image": "./Images/newspaper.png",
-			"imageHero": "./Images/newspaper.png",
+			"image": "./Images/news-grid.png",
+			"imageHero": "./Images/news-grid.png",
 			"description": "Here I created a classic magazine or newspaper style grid of images with a tagline which could link to articles. The focus here was mostly to make it work on all screens, desktop, mobile and tablet."
 		},
 		{
@@ -55,8 +55,8 @@
 			"code": ["HTML5","CSS3", "Javascript ES6"],
 			"Toolbox": ["GitHub", "Atom"],
 			"More": [""],
-			"image": "./Images/bonnier-project.png",
-			"imageHero": "./Images/bonnier-project.png",
+			"image": "./Images/bonnier-news.png",
+			"imageHero": "./Images/bonnier-news.png",
 			"description": "Here I created a classic magazine or newspaper style grid of images with a tagline which could link to articles. The focus here was mostly to make it work on all screens, desktop, mobile and tablet."
 		}
 	]

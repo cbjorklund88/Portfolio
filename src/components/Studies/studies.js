@@ -21,8 +21,12 @@ class Studies extends React.Component {
           <div className="studiesListItem">
             <h5>html and css 3</h5>
             <p>
-            3 day intensive course. Build a portfolio
-            in HTML&CSS. Ekskäret April. 2018
+            3 day intensive course - build a portfolio.
+            Studied basics of web development in HTML5 and CSS3.
+            Got knowledge in how to publish websites online,
+            how to customize web pages for different screen sizes,
+            make it responsive and how to use Github
+            Ekskäret April. 2018
             </p>
           </div>
         </div>
