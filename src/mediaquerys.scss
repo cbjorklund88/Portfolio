@@ -1,0 +1,56 @@
+@media (min-width: 600px) and (max-width: 1200px){
+  .container {
+    width: 100%;
+  }
+  .profileInfo {
+    width: 85%;
+    margin: 0 auto;
+  }
+  button {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  h1, h2, h3 {
+    margin: 0;
+  }
+  .mytech-wrapper,
+  .skills-wrapper,
+  .studies-wrapper{
+    margin: 0 60px;
+  }
+  .case-title {
+    min-height: 50px;
+  }
+  .MyCases {
+  width: calc(100% - 60px);
+  margin: 0 30px;
+  justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 1000px;
+  }
+  .profileInfo {
+    width: 85%;
+    margin: 0 auto;
+  }
+  h1 {
+    margin: 0;
+  }
+  .MyCases {
+  width: calc(100% - 60px);
+  margin: 0 30px;
+  justify-content: center;
+  }
+  .mytech-wrapper,
+  .skills-wrapper,
+  .studies-wrapper{
+    margin: 0 60px;
+  }
+  footer {
+    width: 100%;
+  }
+}

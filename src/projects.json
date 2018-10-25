@@ -1,63 +1,75 @@
 {
 	"cases": [{
 			"id": "1",
-			"title": "Radio player built in React using Sveriges Radios API:s",
-			"code": ["HTML5", "CSS3", "React", "Javascript ES6"],
-			"Toolbox":["GitHub", "Atom", "Terminal"],
+			"title": "Online Newspaper for Bonnier",
+			"code": ["HTML5","CSS3", "Javascript ES6"],
+			"Toolbox": ["GitHub", "Atom", "Postman"],
 			"More": [""],
-			"image": "./Images/radio.png",
-			"imageHero": "./Images/radio.png",
-			"description": "For this project I used the Sveriges Radio API to fetch information about the radio channels and fetch playable audio stream urls to create a working radio player!"
+			"image": "./Images/bonnier-news.png",
+			"imageHero": "./Images/bonnier-news.png",
+			"urlLive": "https://cbjorklund88.github.io/bonnier-news/",
+			"description": "For this project we used Google News API to build an dynamic online newspaper. For our content we chose space-oriented news and named the newspaper - The Final Frontier.",
+			"urlCode": "https://github.com/cbjorklund88/bonnier-news"
 		},
 		{
-			"id": "2",
-			"title": "Weather Dashboard built on open weather API",
-			"code": ["HTML5","CSS3", "React", "Javascript ES6"],
-			"Toolbox": ["GitHub", "Atom", "Terminal"],
-			"More": [""],
-			"image": "./Images/weather_mock.gif",
-			"imageHero": "./Images/weather_mock.gif",
-			"description": "For this project I built a weather dashboard that tells today's weather and temperature in Stockholm using a weather API."
+		"id": "2",
+		"title": "Radio player built in React using Sveriges Radios API:s",
+		"code": ["HTML5", "CSS3", "React", "Javascript ES6"],
+		"Toolbox":["GitHub", "Atom", "Terminal"],
+		"More": [""],
+		"image": "./Images/radio.png",
+		"imageHero": "./Images/radio.png",
+		"urlLive": "https://cbjorklund88.github.io/radio-player/",
+		"description": "For this project I used the Sveriges Radio API to fetch information about the radio channels and fetch playable audio stream urls to create a working radio player!",
+		"urlCode": "https://github.com/cbjorklund88/radio-player"
 		},
 		{
 			"id": "3",
-			"title": "Clock App using state in React",
-			"code": ["HTML5","CSS3", "React", "Javascript ES6"],
-			"Toolbox": ["GitHub", "Atom", "Terminal"],
-			"More": [""],
-			"image": "./Images/clock.png",
-			"imageHero": "./Images/clock.png",
-			"description": "This project I used React state to build a clock with two buttons, one to stop the clock and one to start it again."
-		},
-		{
-			"id": "4",
-			"title": "Newspaper",
-			"code": ["HTML5","CSS3"],
-			"Toolbox": ["GitHub", "Atom"],
-			"More": [""],
-			"image": "./Images/news-grid.png",
-			"imageHero": "./Images/news-grid.png",
-			"description": "Here I created a classic magazine or newspaper style grid of images with a tagline which could link to articles. The focus here was mostly to make it work on all screens, desktop, mobile and tablet."
-		},
-		{
-			"id": "5",
 			"title": "Create a Feature Page for Volumental's Clients",
 			"code": ["HTML5","CSS3"],
 			"Toolbox": ["GitHub", "Atom"],
 			"More": [""],
 			"image": "./Images/volBauer.png",
 			"imageHero": "./Images/volBauer.png",
-			"description": "In this project we worked with Volumental and our job was to improve an important part of their webpage – their client pages. We were to create a stand alone page website dedicated to one of their customers. My team worked with Bauer."
+			"urlLive": "https://cbjorklund88.github.io/volumental-client-page/",
+			"description": "In this project we worked with Volumental and our job was to improve an important part of their webpage – their client pages. We were to create a stand alone page website dedicated to one of their customers. My team worked with Bauer.",
+			"urlCode": "https://github.com/cbjorklund88/volumental-client-page"
+		},
+		{
+			"id": "4",
+			"title": "Weather Dashboard built on open weather API",
+			"code": ["HTML5","CSS3", "Javascript ES6"],
+			"Toolbox": ["GitHub", "Atom", "Terminal"],
+			"More": [""],
+			"image": "./Images/weather_mock.gif",
+			"imageHero": "./Images/weather_mock.gif",
+			"urlLive": "https://cbjorklund88.github.io/weather-dashboard/",
+			"description": "For this project I built a weather dashboard that tells today's weather and temperature in Stockholm using a weather API. I also made it in to an Chrome extension.",
+			"urlCode": "https://github.com/cbjorklund88/weather-dashboard"
+		},
+		{
+			"id": "5",
+			"title": "Clock App using state in React",
+			"code": ["HTML5","CSS3", "React", "Javascript ES6"],
+			"Toolbox": ["GitHub", "Atom", "Terminal"],
+			"More": [""],
+			"image": "./Images/clock.png",
+			"imageHero": "./Images/clock.png",
+			"urlLive": "https://cbjorklund88.github.io/clock/",
+			"description": "This project I used React to build a clock with two buttons, one to stop the clock and one to start it again.",
+			"urlCode": "https://github.com/cbjorklund88/clock"
 		},
 		{
 			"id": "6",
-			"title": "Online Newspaper for Bonnier",
-			"code": ["HTML5","CSS3", "Javascript ES6"],
+			"title": "Newspaper",
+			"code": ["HTML5","CSS3"],
 			"Toolbox": ["GitHub", "Atom"],
 			"More": [""],
-			"image": "./Images/bonnier-news.png",
-			"imageHero": "./Images/bonnier-news.png",
-			"description": "Here I created a classic magazine or newspaper style grid of images with a tagline which could link to articles. The focus here was mostly to make it work on all screens, desktop, mobile and tablet."
+			"image": "./Images/news-grid.png",
+			"imageHero": "./Images/news-grid.png",
+			"urlLive": "https://cbjorklund88.github.io/newspaper-grid/",
+			"description": "Here I created a classic magazine or newspaper style grid of images with a tagline which could link to articles. The focus here was mostly to make it work on all screens, desktop, mobile and tablet.",
+			"urlCode": "https://github.com/cbjorklund88/newspaper-grid"
 		}
 	]
 }
